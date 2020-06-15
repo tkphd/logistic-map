@@ -1,5 +1,7 @@
 # Logistic Maps
 
+![The Logistic Map](thumbnail.png "The Logistic Map")
+
 This repository contains code to generate and visualize the [logistic
 map](https://en.wikipedia.org/wiki/Logistic_map) using Python. It
 depends on matplotlib and sympy. To use this software, simply edit the
