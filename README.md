@@ -20,8 +20,3 @@ accordingly. If the extrema cannot be calculated (e.g., transcendental
 functions), the peak is assumed to lie at *x*=½, and the function is
 scaled to the value there. SymPy also converts the expression to LaTeX
 for use as the graph title.
-
-Results (raw data) are stored to `logistic.npy`. If it exists, it will
-be read back in, so the map can simply resume from previous iterations.
-If you change the function or resolution, it is recommended that you
-delete this file.
