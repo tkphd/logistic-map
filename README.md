@@ -11,7 +11,7 @@ depends on matplotlib, sympy, and tqdm.
 The logistic map is based on an iterated expression for population
 growth (and decay), where *x* is between 1 (saturation) and 0 (death):
 
-    *x ← rx(1 - x)*
+*x ← rx(1 - x)*
 
 The map, or bifurcation diagram, results from plotting the last *n*
 iterations of the expression for each growth rate *r*, with 0 < *r* < 4.
@@ -33,7 +33,7 @@ machine, and creates `logistic.png`.
 The [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) is
 the result of iterating the *complex* expression
 
-    *z ← z² + c*
+*z ← z² + c*
 
 The point at complex coordinate *c* is part of the set if the iterations
 do not diverge. Often, the set is plotted with contours indicating how
