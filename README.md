@@ -54,6 +54,7 @@ needle.
 
 On my machine, `python mandelbrot.py` runs for up to 3 hours. When it
 finishes, it will write `mandelbrot.pts` containing the 3-D points
-within the set [Re(*c*), Im(*c*), Re(*z*)]. 
+within the set [Re(*c*), Im(*c*), Re(*z*)]. Open this point cloud with
+ParaView or another 3-D visualization tool.
 
 Feel free to try other iterated expressions!
